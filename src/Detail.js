@@ -4,10 +4,13 @@ import todo from './Image/todo.png'
 
 import netflix from './Image/netflix.png'
 import library from './Image/library.png'
+import ecom from './Image/ecom.png'
 
 
 
 export const details = [
+    {heading : "Ecommerce Project", dis : "I build this ecommerce project using Next Js, Sanity.io, Stripe, Advanced-React such as Folder and file structure, hooks and refs. Advanced State Management of the entire application using React,Context API, and the complete integration with Stripe so that i can cover REAL payments. ", img : ecom, tech : "HTML, CSS, JavaScript, React, Node", github : "https://github.com/Jritika932/Ecommerce-App", preview : "https://ecommerce-app-sanity-ten.vercel.app/"},
+
     {heading : "NetFlix Clone Project", dis : "This project is a Clone of NetFlix, in this project i used React, jsx as a front end and Nodejs as a backend, and for Login & Signup i used Firebase,Routing, hook's, Bootstrap & Firebase.", img : netflix, tech : "HTML, CSS, JavaScript, React, Node", github : "https://timely-paprenjak-5b0f4b.netlify.app", preview : "https://timely-paprenjak-5b0f4b.netlify.app"},
 
     {heading : "Blog Project", dis : "a blog page which has different blogs on different categories like sports,hollywood etc. using React as a front end and nodeJs as a backend.", img : blog, tech : "HTML, CSS, JavaScript, React, Node", github :  "https://github.com/Jritika932/ReactProject", preview : "https://wonderful-babka-dbc085.netlify.app"},
